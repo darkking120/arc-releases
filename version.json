@@ -1,0 +1,10 @@
+{
+  "version": "3.0.0",
+  "changelog": [
+    "Fixed Galileo and Amadeus ticket tax-parsing (wrapped lines, two-column layout, EQU fare)",
+    "Fixed crash in automation error handling",
+    "Fixed Treeview thread-safety issue in automation",
+    "Added automatic update checking"
+  ],
+  "download_url": "https://github.com/darkking120/arc-releases/releases/latest"
+}
