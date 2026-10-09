@@ -1,10 +1,12 @@
 {
-  "version": "3.0.0",
+  "version": "3.1.0",
   "changelog": [
-    "Fixed Galileo and Amadeus ticket tax-parsing (wrapped lines, two-column layout, EQU fare)",
-    "Fixed crash in automation error handling",
-    "Fixed Treeview thread-safety issue in automation",
-    "Added automatic update checking"
+    "Modern dark refund workspace with Charcoal, Navy, and Dark teal themes",
+    "Adjustable text sizes with saved appearance settings",
+    "ARC branding with a white startup logo and no black border",
+    "Selected refund rules highlight in teal; Before fee removed",
+    "Whole amounts omit .00 while non-zero decimals are preserved",
+    "Improved refund parsing, validation, and automation stop handling"
   ],
   "download_url": "https://github.com/darkking120/arc-releases/releases/latest"
 }
