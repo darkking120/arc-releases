@@ -8,5 +8,5 @@
     "Whole amounts omit .00 while non-zero decimals are preserved",
     "Improved refund parsing, validation, and automation stop handling"
   ],
-  "download_url": "https://github.com/darkking120/arc-releases/releases/latest"
+  "download_url": "https://github.com/darkking120/arc-releases/releases/download/3.1.0/ARC_modern.exe"
 }
