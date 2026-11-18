@@ -11,5 +11,5 @@
     "Improved greedy optimal matching for duplicate tax codes on Amadeus TRFT screens.",
     "Updated the high-contrast dark workspace, added 30-level undo history with Ctrl+Z per tax table, and full report export/import state restoration."
   ],
-  "download_url": "https://github.com/darkking120/arc-releases/releases/tag/V3.1.0"
+  "download_url": "https://github.com/darkking120/arc-releases/releases/latest/download/ARC_Pro_3.1.0.exe"
 }
