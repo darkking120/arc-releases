@@ -1,15 +1,10 @@
 {
-  "version": "3.1.0",
+  "version": "3.1.1",
   "changelog": [
-    "Tax Charge rules now detect specified tax codes in the Tax Paid table, without requiring the code to also appear in Tax Used; live status and rule descriptions updated.",
-    "Improved multi-line and wrapped tax parsing for Amadeus TWD/TQT and Galileo FHE displays, including two-column Amadeus screens and XT tax breakdowns.",
-    "Improved EQU/EQUIV one-way fare parsing and currency-prefix handling for PKR, CAD, and USD.",
-    "Whole amounts display without trailing .00 while genuine fractional decimals are preserved.",
-    "Added a 120 ms debounced real-time calculation engine for smoother UI responsiveness.",
-    "Added distinct row badges and left-stripes for Non-Refundable, Airline Non-Refundable, and Tax Charge rules.",
-    "Added focus window-guards for Amadeus TRFU and Galileo TRNE auto-entry, stopping typing if terminal focus shifts.",
-    "Improved greedy optimal matching for duplicate tax codes on Amadeus TRFT screens.",
-    "Updated the high-contrast dark workspace, added 30-level undo history with Ctrl+Z per tax table, and full report export/import state restoration."
-  ],
-  "download_url": "https://github.com/darkking120/arc-releases/releases/latest/download/ARC_Pro_3.1.0.exe"
+    "Galileo TRNE: auto-detects the TRN1 layout (prefilled or blank paid fields) and fills only the dotted fields",
+    "Galileo TRNE Layout 2: TAB x3 after Cash Amt Used to reach Total Tax Amount Paid",
+    "Galileo TRNTAX: dots are filled from the Refund Taxes table in Layout 2",
+    "Galileo TRNTAX: screens with empty lines now parse correctly",
+    "Slower typing speed on the TRNE first page"
+  ]
 }
